@@ -26,7 +26,8 @@ public class StringPractice {
 		System.out.println(fullName.replace(4, 9, "Thompson"));
 		System.out.println(fullName.reverse());
 		
-		
+		String timesWords = "Hey There!";
+		System.out.println(timesStrings(timesWords, 10));
 		
 		
 	}
@@ -47,7 +48,13 @@ public class StringPractice {
 			return result.toString();
 		}
 	
-	
+		public static String timesStrings(String str, int num) {
+			String results = new String();
+			for (int i = 0; i < num; i++) {
+				results += str;
+			}
+			return results;
+		}
 	
 
 }

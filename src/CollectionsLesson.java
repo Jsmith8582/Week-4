@@ -76,8 +76,7 @@ public class CollectionsLesson {
 		System.out.println(racerPlacements.get(2));
 		
 		
-		if (racerPlacements.containsValue("Tommy")) {
-			racerPlacements.remove(states);
+
 		}
 		
 		

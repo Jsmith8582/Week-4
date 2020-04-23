@@ -16,6 +16,18 @@ public class Practice {
 		int[] values = {5, 6, 8, 11, 17, 50};
 		System.out.println(sumArray(values));
 		
+		int [] numberList = {10, 15, 11, 19, 20, 17, 9, 14};
+		System.out.println(greaterThan100(numberList));
+		System.out.println(numberList.length);
+		
+		int sum = 0;
+		for (int i = 0; i < numberList.length; i++) {
+			sum += numberList.length;
+		}
+		System.out.println(sum);
+		
+
+		
 		
 		
 		
@@ -50,6 +62,18 @@ public class Practice {
 		
 		
 		
+		
+		public static boolean greaterThan100(int[] numbers) {
+			int sum = 0;
+			for (int i = 0; i < numbers.length; i++) {
+				sum += numbers[i];
+			}
+			if (sum > 100) {
+				return true;
+			} else {
+				return false;
+			}
+		}
 		
 		
 }
