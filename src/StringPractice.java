@@ -45,7 +45,7 @@ public class StringPractice {
 			for (int i = 0; i < num; i++) {
 				result.append(str);
 			}
-			return result.toString();
+			return result.toString(); 
 		}
 	
 		public static String timesStrings(String str, int num) {
